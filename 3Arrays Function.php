@@ -47,6 +47,8 @@ print_r($merged);
 // htmlspecialchars
 $string = '<script>alert(1)</script>';
 echo htmlspecialchars($string);
-    ?>
+
+
+?>
 </body>
 </html>

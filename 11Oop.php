@@ -34,6 +34,11 @@ class Employee{
         $this->name = $name;
         $this->age = $age;
     }
+    function __destruct()
+    {
+        // this function always will call at the end when we create a new Employee
+        echo "<br> calling destruct function $this->name";
+    }
     function getData(){
         return $this->name . $this->age;
     }
